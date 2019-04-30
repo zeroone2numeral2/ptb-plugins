@@ -16,6 +16,7 @@ setup(
     long_description=read_readme(),
     long_description_content_type='text/markdown',
     url='https://github.com/zeroone2numeral2/ptb-plugins',
+    download_url='https://github.com/zeroone2numeral2/ptb-plugins/archive/0.0.1.tar.gz',
     author='zeroone2numeral2',
     license='MIT',
     packages=['ptbplugins'],
