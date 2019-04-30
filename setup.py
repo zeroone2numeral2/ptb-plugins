@@ -11,22 +11,22 @@ def read_readme():
 
 setup(
     name='ptbplugins',
-    version='0.0.1',
+    version='0.0.2',
     description='Simple util to import python-telegram-bot handlers using decorators',
     long_description=read_readme(),
     long_description_content_type='text/markdown',
     url='https://github.com/zeroone2numeral2/ptb-plugins',
-    download_url='https://github.com/zeroone2numeral2/ptb-plugins/archive/0.0.1.tar.gz',
+    download_url='https://github.com/zeroone2numeral2/ptb-plugins/tarball/0.0.1',
     author='zeroone2numeral2',
+    author_email='numeralzeroone@gmail.com',
     license='MIT',
     packages=['ptbplugins'],
     install_requires=[
         'python-telegram-bot == 11.1.0',
     ],
-    classifiers=(
+    classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ),
-    zip_safe=False
+    ]
 )
